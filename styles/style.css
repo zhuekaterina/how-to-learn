@@ -319,7 +319,8 @@
     text-decoration: none;
 }
 
-.footer__column-icon {
+.footer__social-icon {
     width: 16px;
     height: 16px;
+    margin-right: 10px;
 }
