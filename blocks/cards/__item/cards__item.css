@@ -3,10 +3,4 @@
     align-items: center;
     flex-direction: column;
     width: 240px;
-    height: 322px;
-}
-
-.cards__item:empty {
-    width: 240px;
-    height: 322px;
 }

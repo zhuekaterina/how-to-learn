@@ -40,12 +40,12 @@
                     <h4 class="cards__title">Два вида внимания</h4>
                     <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
                 </li>
-                <li class="cards__item">
+                <li class="cards__item cards__item_space">
                     <img class="cards__image" alt="Recall" src="./images/cards-recall.png">
                     <h4 class="cards__title">Recall</h4>
                     <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
                 </li>
-                <li class="cards__item">
+                <li class="cards__item cards__item_space">
                     <img class="cards__image" alt="Interliving" src="./images/cards-interliving.png">
                     <h4 class="cards__title">Интерливинг</h4>
                     <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
@@ -55,13 +55,11 @@
                     <h4 class="cards__title">Вопросы</h4>
                     <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
                 </li>
-                <li class="cards__item">
+                <li class="cards__item cards__item_space">
                     <img class="cards__image" alt="Competence" src="./images/cards-competence.png">
                     <h4 class="cards__title">Иллюзия компетентности</h4>
                     <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
                 </li>
-                <li class="cards__item"></li>
-                <!--Не нахожу другого варианта, как добавить пустой элемент, чтобы другие 5 элементов выстроились именно в этом порядке и чтобы последний из-за space-between не прижимался к правой стороне. На всякий случай добавила в cards__item.css состояние cards__item:empty.--> 
             </ul>
         </section>
         <section class="video">
@@ -82,7 +80,7 @@
         </section>
         <section class="feynman">
             <h2 class="feynman__title">Метод Фейнмана</h2>
-            <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+            <p class="feynman__subtitle">Выучить и не забыть.</p>
             <a class="link feynman__link" href="#">Подробнее &#8594;</a>
         </section>
         <section class="digits">
@@ -182,19 +180,19 @@
                     <h4 class="table__heading table__heading_theme_dark">10</h4>
                     <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
                 </div>
-                <img class="kaufman__triangle rotation" src="./images/triangle.svg"></div>
+                <div class="kaufman__triangle rotation"></div>
             </div>
         </section>
-        <nav class="resources">
+        <section class="resources">
             <h2 class="section-title">Полезные ресурсы</h2>
             <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
             <ul class="resources__logo-zone">
-                <li><a href="https://arzamas.academy/"><img src="./images/resources-arzamas.svg" class="resources__logo" alt="Арзамас"></a></li>
-                <li><a href="https://nplus1.ru/"><img src="./images/resources-n1.svg" href="https://nplus1.ru/" class="resources__logo" alt="N+1"></a></li>
-                <li><a href="https://strelka.com/"><img src="./images/resources-strelka.svg" class="resources__logo" alt="STRELKA"></a></li>
-                <li><a href="https://polka.academy/"><img src="./images/resources-polka.svg" class="resources__logo" alt="ПОЛКА"></a></li>
+                <li><a href="https://arzamas.academy/" class="link"><img src="./images/resources-arzamas.svg" class="resources__logo" alt="Арзамас"></a></li>
+                <li><a href="https://nplus1.ru/" class="link"><img src="./images/resources-n1.svg" class="resources__logo" alt="N+1"></a></li>
+                <li><a href="https://strelka.com/" class="link"><img src="./images/resources-strelka.svg" class="resources__logo" alt="STRELKA"></a></li>
+                <li><a href="https://polka.academy/" class="link"><img src="./images/resources-polka.svg" class="resources__logo" alt="ПОЛКА"></a></li>
             </ul>
-        </nav>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__columns">
